@@ -10,6 +10,9 @@ A single-file, offline-friendly weather web app. It shows a 24-hour temperature 
 - Place search and **UK postcode** support (e.g., `EC1A 1BB`)
 - Responsive layout; carousels on small screens
 
+## Screenshot
+![Stratus Screenshot](Stratus_Screenshot_01.png)
+
 ## Data & services
 - Weather & geocoding: [Open-Meteo](https://open-meteo.com/)
 - UK postcode lookup: [postcodes.io](https://postcodes.io/)
