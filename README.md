@@ -23,7 +23,7 @@ A single-file, offline-friendly weather web app. It shows a 24-hour temperature 
 
 ## Query parameters
 - `?q=Amsterdam, NL` – load by place name  
-- `?postal=CV1 3LJ` – load by UK postcode  
+- `?postal=EC1A 1BB` – load by UK postcode  
 - `?debug=1` – (optional) show extra console controls
 
 ## Known limits
