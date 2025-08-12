@@ -2,6 +2,9 @@
 
 A single-file, offline-friendly weather web app. It shows a 24-hour temperature chart, a 7-day forecast, local moon phases, and animated time-of-day gradients. Works with place search and UK postcodes. No API keys needed.
 
+[Launch Stratus](https://swiftredvox.github.io/stratus/)
+
+
 ## Features
 - Today chart: temperature vs “feels like” with a current-time marker
 - 7-day forecast with “Today” highlighted
