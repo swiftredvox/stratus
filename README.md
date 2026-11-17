@@ -6,7 +6,7 @@ A weather app built around a living sky. The background is a real-time WebGL sce
 
 ![Stratus showing live weather around the world: sun in Rio de Janeiro, showers in Auckland, snow in Yellowknife, a thunderstorm in Paris, fog in Singapore and a clear night in Santorini](.github/media/showcase.webp)
 
-<sub>Recorded from the live site with real weather at the time.</sub>
+<sub>Captured from the live site with real weather at the time.</sub>
 
 ## Screenshots
 
