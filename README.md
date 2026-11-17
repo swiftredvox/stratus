@@ -4,7 +4,9 @@ A weather app built around a living sky. The background is a real-time WebGL sce
 
 **[Open Stratus](https://swiftredvox.github.io/stratus/)**
 
-![The Stratus sky moving through sunrise, fair weather, rain, a thunderstorm, snow, fog, golden hour and a clear night](.github/media/showcase.webp)
+![Stratus showing live weather around the world: sun in Rio de Janeiro, showers in Auckland, snow in Yellowknife, a thunderstorm in Paris, fog in Singapore and a clear night in Santorini](.github/media/showcase.webp)
+
+<sub>Recorded from the live site with real weather at the time.</sub>
 
 ## Screenshots
 
