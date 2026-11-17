@@ -4,6 +4,16 @@ A weather app built around a living sky. The background is a real-time WebGL sce
 
 **[Open Stratus](https://swiftredvox.github.io/stratus/)**
 
+![The Stratus sky moving through sunrise, fair weather, rain, a thunderstorm, snow, fog, golden hour and a clear night](.github/media/showcase.webp)
+
+## Screenshots
+
+![Stratus showing mostly clear weather in Rio de Janeiro](.github/media/hero.webp)
+
+![Forecast and detail panels: 48-hour timeline, 14-day forecast, wind, sun, UV, air quality and more](.github/media/details.webp)
+
+<p align="center"><img src=".github/media/mobile.webp" width="520" alt="Stratus on a phone: the main screen and the forecast panels"></p>
+
 ## Features
 
 - **At a glance:** temperature, conditions, feels-like, today's high and low, chance of rain, and a plain-language rain outlook ("Rain starting in about 20 min", "Dry for the next 24 hours")
