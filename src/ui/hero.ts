@@ -13,7 +13,8 @@ export function renderHero(c: Ctx, handlers: { onStar: () => void; onPlace: () =
   const d = c.f.daily;
   const o = rainOutlook(c.f, c.now);
   const saved = isSaved(c.place);
-  const sub = [c.place.region, c.place.countryCode === 'GB' ? 'UK' : c.place.country].filter(Boolean).join(', ');
+  const sub = [...new Set([c.place.region, c.place.countryCode === 'GB' ? 'UK' : c.place.country])]
+    .filter((x) => x && x !== c.place.name).join(', ');
   const chips = state.layout.pinned
     .filter((id) => !state.layout.hidden.includes(id))
     .map((id) => {
