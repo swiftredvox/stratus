@@ -1,0 +1,71 @@
+// Well-known places around the world for the "Surprise me" button.
+import type { Place } from '../api/weather';
+
+const P = (name: string, region: string, country: string, countryCode: string, lat: number, lon: number): Place =>
+  ({ name, region, country, countryCode, lat, lon });
+
+export const FAMOUS: Place[] = [
+  P('New York', 'New York', 'United States', 'US', 40.7128, -74.006),
+  P('Tokyo', 'Tokyo', 'Japan', 'JP', 35.6762, 139.6503),
+  P('Paris', 'Île-de-France', 'France', 'FR', 48.8566, 2.3522),
+  P('Sydney', 'New South Wales', 'Australia', 'AU', -33.8688, 151.2093),
+  P('Rio de Janeiro', 'Rio de Janeiro', 'Brazil', 'BR', -22.9068, -43.1729),
+  P('Cairo', 'Cairo', 'Egypt', 'EG', 30.0444, 31.2357),
+  P('Reykjavík', 'Capital Region', 'Iceland', 'IS', 64.1466, -21.9426),
+  P('Cape Town', 'Western Cape', 'South Africa', 'ZA', -33.9249, 18.4241),
+  P('Dubai', 'Dubai', 'United Arab Emirates', 'AE', 25.2048, 55.2708),
+  P('Singapore', '', 'Singapore', 'SG', 1.3521, 103.8198),
+  P('Hong Kong', '', 'Hong Kong', 'HK', 22.3193, 114.1694),
+  P('Mumbai', 'Maharashtra', 'India', 'IN', 19.076, 72.8777),
+  P('Rome', 'Lazio', 'Italy', 'IT', 41.9028, 12.4964),
+  P('Venice', 'Veneto', 'Italy', 'IT', 45.4408, 12.3155),
+  P('Barcelona', 'Catalonia', 'Spain', 'ES', 41.3874, 2.1686),
+  P('Amsterdam', 'North Holland', 'Netherlands', 'NL', 52.3676, 4.9041),
+  P('Berlin', 'Berlin', 'Germany', 'DE', 52.52, 13.405),
+  P('Prague', 'Prague', 'Czechia', 'CZ', 50.0755, 14.4378),
+  P('Istanbul', 'Istanbul', 'Türkiye', 'TR', 41.0082, 28.9784),
+  P('Moscow', 'Moscow', 'Russia', 'RU', 55.7558, 37.6173),
+  P('Edinburgh', 'Scotland', 'United Kingdom', 'GB', 55.9533, -3.1883),
+  P('London', 'England', 'United Kingdom', 'GB', 51.5072, -0.1276),
+  P('Dublin', 'Leinster', 'Ireland', 'IE', 53.3498, -6.2603),
+  P('Los Angeles', 'California', 'United States', 'US', 34.0522, -118.2437),
+  P('San Francisco', 'California', 'United States', 'US', 37.7749, -122.4194),
+  P('Chicago', 'Illinois', 'United States', 'US', 41.8781, -87.6298),
+  P('Miami', 'Florida', 'United States', 'US', 25.7617, -80.1918),
+  P('New Orleans', 'Louisiana', 'United States', 'US', 29.9511, -90.0715),
+  P('Las Vegas', 'Nevada', 'United States', 'US', 36.1699, -115.1398),
+  P('Honolulu', 'Hawaii', 'United States', 'US', 21.3069, -157.8583),
+  P('Anchorage', 'Alaska', 'United States', 'US', 61.2181, -149.9003),
+  P('Vancouver', 'British Columbia', 'Canada', 'CA', 49.2827, -123.1207),
+  P('Toronto', 'Ontario', 'Canada', 'CA', 43.6532, -79.3832),
+  P('Mexico City', 'CDMX', 'Mexico', 'MX', 19.4326, -99.1332),
+  P('Havana', 'Havana', 'Cuba', 'CU', 23.1136, -82.3666),
+  P('Buenos Aires', 'Buenos Aires', 'Argentina', 'AR', -34.6037, -58.3816),
+  P('Lima', 'Lima', 'Peru', 'PE', -12.0464, -77.0428),
+  P('Machu Picchu', 'Cusco', 'Peru', 'PE', -13.1631, -72.545),
+  P('Ushuaia', 'Tierra del Fuego', 'Argentina', 'AR', -54.8019, -68.303),
+  P('Marrakesh', 'Marrakesh-Safi', 'Morocco', 'MA', 31.6295, -7.9811),
+  P('Nairobi', 'Nairobi', 'Kenya', 'KE', -1.2921, 36.8219),
+  P('Zanzibar', 'Zanzibar', 'Tanzania', 'TZ', -6.1659, 39.2026),
+  P('Petra', 'Ma’an', 'Jordan', 'JO', 30.3285, 35.4444),
+  P('Kathmandu', 'Bagmati', 'Nepal', 'NP', 27.7172, 85.324),
+  P('Bangkok', 'Bangkok', 'Thailand', 'TH', 13.7563, 100.5018),
+  P('Bali', 'Bali', 'Indonesia', 'ID', -8.3405, 115.092),
+  P('Seoul', 'Seoul', 'South Korea', 'KR', 37.5665, 126.978),
+  P('Beijing', 'Beijing', 'China', 'CN', 39.9042, 116.4074),
+  P('Kyoto', 'Kyoto', 'Japan', 'JP', 35.0116, 135.7681),
+  P('Auckland', 'Auckland', 'New Zealand', 'NZ', -36.8485, 174.7633),
+  P('Queenstown', 'Otago', 'New Zealand', 'NZ', -45.0312, 168.6626),
+  P('Tromsø', 'Troms', 'Norway', 'NO', 69.6492, 18.9553),
+  P('Santorini', 'South Aegean', 'Greece', 'GR', 36.3932, 25.4615),
+  P('Zermatt', 'Valais', 'Switzerland', 'CH', 46.0207, 7.7491),
+  P('Banff', 'Alberta', 'Canada', 'CA', 51.1784, -115.5708),
+  P('Death Valley', 'California', 'United States', 'US', 36.5054, -117.0794),
+  P('Ulaanbaatar', 'Ulaanbaatar', 'Mongolia', 'MN', 47.8864, 106.9057),
+  P('Longyearbyen', 'Svalbard', 'Norway', 'NO', 78.2232, 15.6267),
+];
+
+export function randomPlace(exclude?: Place | null): Place {
+  const pool = FAMOUS.filter((p) => !exclude || Math.abs(p.lat - exclude.lat) > 0.05 || Math.abs(p.lon - exclude.lon) > 0.05);
+  return pool[Math.floor(Math.random() * pool.length)];
+}
